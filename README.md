@@ -1,7 +1,9 @@
   
-# Sufferings and Problem Solving  
-[![Alt text](https://leftoversalad.com/c/015_programmingpeople/PP1.png)](https://leftoversalad.com/c/015_programmingpeople/)
-  
+# Sufferings and Problem Solving
+<div align="center">  
+<img src="https://leftoversalad.com/c/015_programmingpeople/PP1.png"/>
+</div>
+
 ##  1. <a name='TableofContent'></a>Table of Content  
 <!-- vscode-markdown-toc -->
 * 1. [Table of Content](#TableofContent)
