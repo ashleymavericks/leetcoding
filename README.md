@@ -189,6 +189,3 @@
 **Reference** :    
 [List of Questions asked on System Design](https://leetcode.com/discuss/interview-question/1140451/Helpful-list-of-LeetCode-Posts-on-System-Design-at-Facebook-Google-Amazon-Uber-Microsoft)  
   
-##  7. <a name='DailyLogs'></a>Daily Logs  
-[Daily Log Notion Page](https://ashleymavericks.notion.site/488b56eff71449268b5b0a22c4c4d53c?v=5b7b89e95d3e4339a96a3bfae6b4fa43)
-

@@ -1,10 +1,13 @@
-#
+#16
 # @lc app=leetcode id=2256 lang=python3
 #
 # [2256] Minimum Average Difference
-#
 
 # @lc code=start
+
+# Approach: Using prefix sum
+# Time: O(n) , Space: O(n)
+
 class Solution:
     def minimumAverageDifference(self, nums: List[int]) -> int:
         total_sum = sum(nums)
