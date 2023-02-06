@@ -25,13 +25,13 @@ class Solution:
         #     if i not in c1:
         #         c1[i] = 1
         #     else:
-        #         c1[i] = c1[i] + 1
+        #         c1[i] += 1
 
         # for j in word2:
         #     if c2.get(j) is None:
         #         c2[j] = 1
         #     else:
-        #         c2[j] = c2[j] + 1
+        #         c2[j] += 1
 
         c1 = Counter(word1)
         c2 = Counter(word2)

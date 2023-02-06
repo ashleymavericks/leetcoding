@@ -18,7 +18,6 @@ b.right = e
 c.right = f
 
 # iterative approach
-
 def depth_first_values(root):
     if not root:
         return []
