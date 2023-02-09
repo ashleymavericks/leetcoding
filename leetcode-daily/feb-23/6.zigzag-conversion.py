@@ -1,10 +1,14 @@
+# @before-stub-for-debug-begin
+from python3problem6 import *
+from typing import *
+# @before-stub-for-debug-end
+
 #
 # @lc app=leetcode id=6 lang=python3
 #
 # [6] Zigzag Conversion
 #
 # Approach: Analyse the pattern and create mathematical forumula to cover each value, based on how many hops will be needed to reach to the next
-
 # Time: O(n^2) , Space: O(1)
 
 # @lc code=start
