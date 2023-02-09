@@ -9,6 +9,7 @@ from typing import *
 # [6] Zigzag Conversion
 #
 # Approach: Analyse the pattern and create mathematical forumula to cover each value, based on how many hops will be needed to reach to the next
+
 # Time: O(n^2) , Space: O(1)
 
 # @lc code=start
