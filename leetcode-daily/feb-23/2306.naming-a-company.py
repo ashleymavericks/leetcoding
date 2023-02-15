@@ -23,10 +23,13 @@ class Solution:
                 if char1 == char2:
                     continue
                 intersect = 0
+                
                 # checking the intersecting suffixes
-                for w in wordMap[char1]:
-                    if w in wordMap[char2]:
-                        intersect += 1
+                intersect = len(wordMap[char1] & wordMap[char2])
+                # for w in wordMap[char1]:
+                #     if w in wordMap[char2]:
+                #         intersect += 1
+                
                 distinct1 = len(wordMap[char1]) - intersect
                 distinct2 = len(wordMap[char2]) - intersect
 
