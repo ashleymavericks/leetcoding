@@ -22,6 +22,9 @@
 # reverse_list(a)  # f -> e -> d -> c -> b -> a
 
 # Iterative approach
+# n = number of nodes
+# Time: O(n)
+# Space: O(1)
 def reverse_list(head):
     prev = None
     while head is not None:
@@ -36,9 +39,13 @@ def reverse_list(head):
 
 
 # Recursive approach
-def reverse_list(head, prev=None):
+# Time: O(n)
+# Space: O(n) -> linear space due to call stack
+def reverse_list(head, prev = None):
+    # base case
     if head is None:
         return prev
+    
     next = head.next
     head.next = prev
     return reverse_list(next, head)

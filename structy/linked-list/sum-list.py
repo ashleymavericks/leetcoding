@@ -6,6 +6,9 @@
 #     self.next = None
 
 # Iterative approach
+# n = number of nodes
+# Time: O(n)
+# Space: O(1)
 def sum_list(head):
     sum = 0
     while head is not None:
@@ -15,6 +18,8 @@ def sum_list(head):
 
 
 # Recursive approach
+# Time: O(n)
+# Space: O(n)
 def sum_list(head):
     if head is None:
         return 0

@@ -18,6 +18,9 @@
 # get_node_value(a, 2)  # 'c'
 
 # Iterative approach
+# n = number of nodes
+# Time: O(n)
+# Space: O(1)
 def get_node_value(head, index):
     counter = 0
     while head is not None:
@@ -29,6 +32,8 @@ def get_node_value(head, index):
 
 
 # Recursive approach
+# Time: O(n)
+# Space: O(n)
 def get_node_value(head, index):
     if head is None:
         return None

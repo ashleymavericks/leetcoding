@@ -2,8 +2,6 @@
 
 # Do this in-place, by mutating the original Nodes. You may assume that both input lists are non-empty.
 
-# Time Complexity: O(min(n,m))
-
 # class Node:
 #     def __init__(self, val):
 #         self.val = val
@@ -25,7 +23,11 @@
 
 # a -> x -> b -> y -> c -> z -> d -> e -> f
 
-# Iterative approach - 1 (Standard pattern)
+## Iterative approach - 1 (Standard pattern)
+# n = length of list 1
+# m = length of list 2
+# Time: O(min(n, m))
+# Space: O(1)
 def zipper_lists(head_1, head_2):
     tail = head_1
     current_1 = head_1.next
@@ -48,7 +50,7 @@ def zipper_lists(head_1, head_2):
     return head_1
 
 
-# Iterative approach - 2 (just worked is this Zippered case due to constant switching of both the lists)
+## Iterative approach - 2 (just worked is this Zippered case due to constant switching of both the lists)
 def zipper_lists(head_1, head_2):
     if head_1 is None:
         return head_2
@@ -67,11 +69,13 @@ def zipper_lists(head_1, head_2):
     return start
 
 
-# Recursive approach
+## Recursive approach
+# Time: O(min(n, m))
+# Space: O(min(n, m))
 def zipper_lists(head_1, head_2):
+    # base cases
     if head_1 is None and head_2 is None:
         return None
-    # base cases
     if head_1 is None:
         return head_2
     if head_2 is None:

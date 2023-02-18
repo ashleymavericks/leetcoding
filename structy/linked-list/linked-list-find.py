@@ -6,6 +6,9 @@
 #     self.next = None
 
 # Iterative approach
+# n = number of nodes
+# Time: O(n)
+# Space: O(1)
 def linked_list_find(head, target):
     while head is not None:
         if head.val == target:
@@ -15,6 +18,8 @@ def linked_list_find(head, target):
 
 
 # Recursive approach
+# Time: O(n)
+# Space: O(n)
 def linked_list_find(head, target):
     if head is None:
         return False

@@ -6,6 +6,9 @@
 #     self.next = None
 
 # Iterative approach
+# n = number of nodes
+# Time: O(n)
+# Space: O(n)
 def linked_list_values(head):
     values = []
     while head is not None:
@@ -15,6 +18,8 @@ def linked_list_values(head):
 
 
 # Recursive approach
+# Time: O(n)
+# Space: O(n)
 def linked_list_values(head):
     values = []
     fill_values(head, values)
