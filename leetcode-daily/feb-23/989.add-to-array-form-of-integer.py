@@ -18,9 +18,8 @@ class Solution:
             else:
                 num.append(digit)
 
-            carry = num[i] // 10  # no need of if statement, 2 // 10 = 0
-            # no need of if statement, 2 % 10 = 2, 12 % 10 = 2
-            num[i] = num[i] % 10
+            carry = num[i] // 10 # no need of if statement, 2 // 10 = 0
+            num[i] = num[i] % 10 # no need of if statement, 2 % 10 = 2, 12 % 10 = 2
 
             k = k // 10  # chop off k
             k += carry
