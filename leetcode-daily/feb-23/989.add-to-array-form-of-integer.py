@@ -3,6 +3,8 @@
 #
 # [989] Add to Array-Form of Integer
 #
+# Approach: In-place addition
+# Time: O(no. of digits in k) -> O(n) , Space: O(1) -> constant space
 
 # @lc code=start
 
@@ -28,6 +30,7 @@ class Solution:
 
 
 # Approach: [1,2,0,0] -> "1200" -> 1200 -> add K -> 1234 -> "1234" -> [1,2,3,4]
+# Time: O(n) , Space: O(n)
 class Solution:
     def addToArrayForm(self, num: 'List[int]', k: 'int') -> 'List[int]':
         return [int(s) for s in str(int(''.join(str(x) for x in num)) + k)]
