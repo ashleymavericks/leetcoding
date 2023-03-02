@@ -14,7 +14,7 @@ from typing import *
 # @lc code=start
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
-
+        # merge sort
         if len(nums) > 1:
             mid = len(nums) // 2
             l = nums[:mid]
@@ -25,14 +25,14 @@ class Solution:
 
             i = j = k = 0
             while i < len(l) and j < len(r):
-                if l[i] < r[j]:
+                if l[i] < r[i]:
                     nums[k] = l[i]
                     i += 1
                 else:
                     nums[k] = r[j]
                     j += 1
                 k += 1
-            # for the remaining elements
+
             while i < len(l):
                 nums[k] = l[i]
                 i, k = i+1, k+1
