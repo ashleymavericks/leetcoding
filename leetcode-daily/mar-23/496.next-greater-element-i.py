@@ -4,12 +4,12 @@
 # [496] Next Greater Element I
 #
 
+
 # @lc code=start
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
         ans = []
-
-	# optimization to not go through the entire nums2 array
+        # optimization to not go through the entire nums2 array
         indices = {}
         for i in range(len(nums2)):
             indices[nums2[i]] = i
@@ -22,6 +22,6 @@ class Solution:
             else:
                 ans.append(-1)
         return ans
-        
-# @lc code=end
 
+
+# @lc code=end
