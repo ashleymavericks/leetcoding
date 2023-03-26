@@ -1,3 +1,0 @@
-"""
-Given participants - AdNabu question
-"""
